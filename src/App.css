@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.w-80 {
+  width: 80%;
+}
+
+.quiz-container {
+  /* background-image: url("assets/images/bg4.jpeg");
+  background-size: cover;
+  background-position: center; */
+  background: #d6f5f5;
+}
+
+/* styles.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #d6f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  /* max-width: 400px; */
+  text-align: center;
+}
